@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>The Resume</h2>
+    <form>
+        <fieldset>
+            <legend> Resume</legend>
+            <fieldset >
+                <legend>Contact Information</legend>
+                <br>
+                <label for="photo">Attach your Passport size Photograph</label>
+                <input name="photo" id="photo" type="file" placeholder="Attach a passport size photograph"/>
+                <br>
+                <br>
+                <label for="name" >  Enter your Name: </label>
+                <input id="name" name="name" type="text"/>
+                
+                 <br>
+                 <br>
+         
+                  <label for="number" >  Enter your Contact Number: </label>
+                  <input id="number" name="number" type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="xxxxxxxxxx"/>
+                <br>
+                <br>  
+    
+                <label for="email" >  Enter your Email Address: </label>
+                <input id="email" name="email" type="text" placeholder="abcd@gmail.com"/>
+         
+                  <br>
+                  <br>
+         
+                  <label for="address" >  Enter your Address: </label>
+                  <input id="address" name="address" type="text" />
+           
+                    <br>
+                    <br>
+           
+         
+    
+            </fieldset>
+             
+              <br>
+    
+            <fieldset>
+    
+                <legend>Personal Information</legend>
+                <br>
+                <label for="dob" >  Enter your Date of Birth: </label>
+                <input id="dob" name="dob" type="date"/>
+         
+                  <br>
+                  <br>
+         
+                  <label for="religion" >  Enter your Religion: </label>
+                  <input id="religion" name="religion" type="text"/>
+           
+                    <br>
+                    <br>
+           
+                <label for="fname" >  Enter your Father's name: </label>
+                <input id="fname" name="fname" type="text"/>
+                
+                 <br>
+                 <br>
+         
+                  <label for="mname" >  Enter your Mother's name: </label>
+                  <input id="mname" name="mname" type="text" />
+                <br>
+                <br>       
+    
+            </fieldset>
+           
+            <br>
+    
+            <fieldset>
+                <legend>Education</legend>
+                <br>
+                <label for="school" >  Enter your School Name: </label>
+                <input id="school" name="school" type="text" placeholder="xyz school"/>
+         
+                  <br>
+                  <br>
+         
+                  <label for="marks" >  Attach your class 12 marksheet : </label>
+                  <input id="marks" name="marks" type="file"/>
+           
+                    <br>
+                    <br>
+           
+                <label for="language" >  Enter your Languages Known: </label>
+                <input id="language" name="language" type="text" placeholder="English,Hindi,french......"/>
+                
+                 <br>
+                 <br>
+        
+    
+            </fieldset>
+    <br>
+            <fieldset>
+              <legend>Skills and Achievements</legend>
+              <label>Enter your skills here:</label>  
+              <textarea name="skills" id="skills" rows="2" cols="27" >
+                </textarea>
+                <br>
+                <br>
+              <label for="achievement">Attach the pdf of your Achievements:</label>
+              <input name="achievement" id="achievement" type="file">
+            </fieldset>
+               <br>
+            <input type="submit"> 
+    
+        </fieldset>  
+        
+    </form>
+</body>
+</html>
