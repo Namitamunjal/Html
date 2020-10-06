@@ -1,0 +1,22 @@
+body{background-image: url(
+    data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANEA0PDw8PDQ0PDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLjcBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAmEAEBAQEAAwACAgICAwEAAAAAAQIRAxIhMVFBcROBYbEi8PEE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APXOJ4uCggAAAAAAIBU0UgFIUgMi6QGCLoKHU9HQUE9PoGaegFmjpwFmjqgVDTDlAwAAAMCBgCMjBUCrlIFqJXUABQVAVJ1NAUuHIvOLQZ2Jre+GstTnygz6XTqQPo6RdBXS6CoK6Op6eYBn05B6gDlSqQDOCQ/UDhxMVAVAUVIAB8HAIK9R6gkHwA3kZWNu/E5gMkunXj+OegkqqpoJpSK4QKjXDGVedA2R5p2CaT5NfwDm8meM+t9fWfoCZDmV8KgOC5Bgj0P1XI1xkCx4O/n4d8fHTkvJOg5dZPx+L2rTeeRp/wDlnygM+KQ/SNrEcBzb8aZl2az8c1gFIqQSKgCZVM8ViNs46Dn4XHT6o3gGPAfDAlZVz8f1AB6rm1GtKgxqa2uEXIMgv1L0BDbGEevG2QGs/wDsYXNdeMo34/a/8A5pg/Jjjqx4Inz+Pn9A4y4veeNfDj+QZzxUteOx1KznoOKRtiL8ni5VZgDLXJ4guQTul45y/wB/9n6o8n4/2DfhXLLHms/P09+f9QFeS8jnPWrV+OAUxT9WsOzoJzHTmOfEdGb0DsTYsgc+s/QqwAm/iDOeiz5DxALyePn1nHRr78R/jBnIW8OnGF2A4M5bf4j3nln6aUHPvxT+GHeO/ji8k+gvO/jXE+Rh43R4/wBArELyfenbwt34Dg3G2J8ir47Tx/4/L+P2B5y1mRnJ2yAz8/8ACML5dVrnwQGcOVprx8/DCg0vHPu9aRO4DPhKogCRpiFjPW+cQCkPg4m0BlthlmNMA0CelaB2BIAr/H9LmSmfwqQC4IZavAEps5pXuDPz3nGM8jXX1jrADflrL8quVwGf2K/yf6MXIF7X9rxqMNTh4oO6U7nrLxeT9tNb/wDoMbj58Gcfv8tcxVyB+OKZ51xftANh/N/tpvySf2x6B6z+mPkbsvLAYqiVZv0G+W0wxxeWV0e8BnUaO3pUDzVyonACvbp9ZnAX0EAa5/EFRjfef0oC1U5nS1T8egX6xG/i+s/Jr6Azgt4/S5T4Dn9elxvb9RqgmeLrPX5bzcYb/II8k+Jh+Sn4f2C/WiarfMVczn/QMMbsbTyMV4oDc7/s54v+WsnwUGGvHf7KN2Pm+fQPqLOpl7XXn8A4d55RmdbebP0sQF4i/U8+P9ncfoGWs8LN7VaiAbxmU2OgKOptHQazRsugCxecaf5HNL+DlBtdCS1ErbIM9TU/nsL2bVy+S8tBtjY15WHun2B0Y+i5/wCWc0fsA/Ba+p8mvnWfsCda6vw1jq/VeOg75o/bkcufJWvh12/QHrf0I6ZXP5Jyg0m/iZus7rgugXdMvLr8DW4xuug0y1z5OMM0+g21rq/C5vZv4dc/2DplHU9AJ8kRYvdRqgiGR9AiB0B0gARPwRQdBU00z5HP0dB03yxzb32lUgrqbR1NoNppU05/Ye9Br5dfwzlItfATq/Txpn08g6ctMXn1hjTSaB0/5v8Ahnrf7ZXyIt6DXOk2s7vhTQL1U9K0uguU/ZBUFTTbGnPFSg7M+Wn/AJK587X7g1mi3pn7F0F9F0jo6C5R1HT6CuggDKUdTKAMEQKTTTQKkYAuCAqB2opjgIqV1ALzppPIxiug0uoj3SXQV0+p6VoK9j9mZg06fURQGcqTgNIpnFAvpxEWB9FIAfR1I6CvYJ6AQAAAAAAACJRASVFwCMhQKosWQIMAARgE0K4OAXAfD4BHDPgA4JDkARULioAOUgCui0gAAAAyME9AAAAAAAA6OgAVIACIACKgAQAAAAADAAAAZgAZgAZ9AAAAB0dAAAwAAAP/2Q==
+    ); 
+background-size: cover;
+}
+
+h1#h2{text-align:center; color: rgb(211, 0, 88); text-decoration: underline; 
+background-color:yellow; height: 50px; font-family: sansita;}
+h2#quote{background-color: hotpink; height:40px; font-family: Sansita Swashed;}
+
+p#song{font-family:Lora; font-size: 20px;}
+ul{font-family: Kotta One;}
+
+
+
+h1#holly{text-align: center; background-color: yellow; text-decoration: underline; font-family: charm; color: rgb(108, 57, 250);}
+
+p{font-family:Linden Hill; font-size: 20px;}
+
+h2.jb{text-decoration: underline; color:crimson}
+
+img{border-width: 5px; border-style: double; height:250px;}
