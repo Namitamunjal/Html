@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body bgcolor="yellow">
+    <h2>Get your Rooms Booked</h2>
+    <fieldset>
+     <legend>Hotel Reservation</legend>
+
+      <fieldset>
+          <legend>Personal Details</legend>
+
+          <label for="name"> Enter your Name:</label>
+          <input id="name" name="name" type="text" placeholder="First Name">
+          <input id="name" name="name" type="text" placeholder="Last Name">
+          <br>
+          <br>
+
+          <label for="email"> Enter your Email Address:</label>
+          <input id="email" name="email" type="text" placeholder="abc@gmail.com">
+          <br>
+          <br>
+
+          <label for="phone"> Enter your Contact Number:</label>
+          <input id="phone" name="phone" type="tel" maxlength="10" placeholder="xxxxxxxxxx">
+          <br>
+          <br>
+
+          <label for="proof"> Attach your Identity proof:</label>
+          <input id="proof" name="proof" type="file" >
+          <br>
+          <br>
+
+      </fieldset>
+<br>
+<fieldset>
+    <legend>Details</legend>
+    
+    <label for="date">Arrival Date:</label>
+    <input id="date" name="date" type="date">
+    <label for="date">Departure Date:</label>
+    <input id="date" name="date" type="date">
+<br><br>
+    <label>Room type:</label>
+    <select name="room">
+        <option value="1">Standard</option>
+        <option value="2">Buisness</option>
+        <option value="3">Dulex</option>
+        <option value="4">Suite</option>
+    </select>
+
+    <label>Bed type:</label>
+    <select name="bed">
+        <option value="1">Single Bed</option>
+        <option value="2">Double Bed</option>
+        <option value="3">Twin Bed</option>
+        <option value="4">King Bed</option>
+    </select>
+<br><br>
+    <label>Does Anyone smoke?</label>
+    <input type="radio" name="smoke">Yes <input type="radio" name="smoke">No
+<br><br>
+   <label>Number of people smoking(if any):</label>
+   <input type="number">
+
+
+</fieldset>
+    <fieldset>
+        <legend> Guest Details</legend>
+
+        <label for="no"> Number of guests:</label>
+          <input id="no" name="no" type="number" >
+          <br>
+          <br>
+
+          <label>Number of adults</label>
+          <select name="adults">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+<br><br>
+
+<label>Number of Children</label>
+          <select name="adults">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+<br><br>
+    </fieldset>
+<br>
+<fieldset>
+    <legend> Distance Information </legend>
+    <label for="meter">Distance Travelled:</label>
+    <meter name="meter" min="0" max="100" value="70" ></meter>
+    <br><br>
+    <label for="journey">How good was the journey?</label>
+    <progress id="journey" name="journey" min="20" max="150"value="89"></progress>
+</fieldset>
+
+<br>
+<input type="submit" value="Book Now">
+    </fieldset>
+</body>
+</html>
