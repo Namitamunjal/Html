@@ -1,0 +1,21 @@
+h1{text-align: center;
+    font-style:italic;
+    text-decoration: underline;
+}
+span#food{color:red;}
+span#food1{color:blue;}
+body{background-color:yellow;}
+
+h3#item{font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: underline; text-decoration: italic;
+color: teal ;
+}
+div.vegi{ height:180px; text-align: center; padding-left: 5px;  border: 10px solid transparent;
+    padding: 15px;}
+
+p#p1{color:royalblue}    
+p#p2{color: salmon;}
+p#p3{color: royalblue;}
+p#p4{text-align: center; ;}
+p#p5{text-decoration: underline; color: darkred; text-align: right;}
+
+
