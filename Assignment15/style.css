@@ -1,0 +1,13 @@
+body{background-color: lavenderblush; background-image:url(http://www.stthomasschool.in/images/logo.png);
+     background-position: center; background-size:750px; background-repeat: no-repeat; background-blend-mode: lighten;}
+div.main_img{text-align: center;}
+img{height:120px;}
+h2#h1{text-align: center;text-decoration:underline; color: rebeccapurple; font-size: 40px;}
+h2#h1:hover{color: royalblue;}
+form.center{text-align: center;}
+input:hover{border-color: hotpink; background-color: pink;}
+input:focus{background-color: lawngreen; border-color:red;}
+label:hover{color:green;}
+label{color:orangered;font-size: 23px;}
+input.submit:hover{background-color: thistle; color: darkorchid;}
+input[type="radio"]:checked{box-shadow: 0 0 0 2px black;}
