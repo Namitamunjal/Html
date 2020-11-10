@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+    <link rel="stylesheet" href="styleredirect.css">
+</head>
+<body>
+    <h1> Hurray!Your Form Is Submitted <br> SUCCESFULLY!</h1>
+    <div>
+        <form action="index.html">
+            <input type="submit" value="Get Back to the form" id="GetBacktotheform" >
+            
+        </form>
+    </div>
+   
+</body>
+</html>
