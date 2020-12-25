@@ -1,0 +1,16 @@
+body{padding:0px;margin:0px;}
+div.head{height:300px;border-width:5px;border-style: solid; }
+img.header{height:300px;}
+div#second{text-align: center; font-size: 35px; font-weight: 800;background-image:url(https://i.pinimg.com/originals/ea/27/4e/ea274eee4ef77877bd63741d558866c5.gif); 
+           height:72px;margin-left: 20%; margin-right: 20%;position:sticky; top:5px;z-index:2;}
+p#para{font-weight: 800; font-size: 26px;margin-left: 5%; margin-right: 5%;}
+li{font-size:32px; font-weight:800;text-decoration: underline;position:sticky; top:5px;z-index:2;}
+img.yoga{height:350px;border-style: solid;}
+p.pose{font-size: 24px;position:absolute; }
+p#one{left: 300px;top: 720px;margin-right: 5%;}
+p#two{top: 1215px;left: 650px;}
+p#three{top: 1640px;left: 630px;}
+p#four{top: 2020px;left: 630px;}
+p#five{top: 2440px;left: 630px;}
+p#six{top: 2850px;left: 585px;}
+p#seven{top: 3335px;left: 605px;}
