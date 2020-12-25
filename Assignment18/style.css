@@ -1,0 +1,52 @@
+/* For border and effects of body */
+body{height:700px;border-color:black; border-style: solid; border-width: 5px;}
+
+/*For heading */
+h1{text-align: center; background-image: url(https://th.bing.com/th/id/OIP.j2UNP5E2mtMJp7BpFDu2CwHaD0?pid=Api&rs=1);
+     color:wheat; margin-left: 5%; margin-right:50%; height:50px; padding-top: 5px; font-size:35px;text-decoration: underline;}
+
+/* For text */
+p{font-family:Texturina, serif; font-size: 25px; margin-left: 15%; margin-right: 65%;
+    background-image: url(https://th.bing.com/th/id/OIP.OTZd1GB8rlzT-URkmHznuwHaEu?w=249&h=180&c=7&o=5&pid=1.7);
+text-decoration: underline;}
+
+/* For First image */
+img.first{height:150px; left:30px; top:500px; position: absolute;transition:height left top transform; 
+    transition-duration: 3000ms;transition-timing-function: cubic-bezier(0, 0, 0.16, 0.6);border-radius:50%;}
+img.first:hover{height:150px;left:220px;top:350px;position:absolute; transition-duration: 3000ms;
+        transition-timing-function:cubic-bezier(0, 0, 0.16, 0.6);border-radius:50%;} 
+
+
+/* For Second image */
+img.second{height:150px;position:absolute;left:250px;top:350px;transition:height left top transform; 
+    transition-duration: 2000ms;transition-timing-function: cubic-bezier(0, 0, 0.16, 0.6);border-radius:50%;}
+img.second:hover{height:150px;left:350px;top:250px;position:absolute; transition-duration: 2000ms;
+    transition-timing-function:cubic-bezier(0, 0, 0.16, 0.6);border-radius:50%; transition-delay: 500ms;}
+
+/* For third image */
+img.third{height:200px;position:absolute;left:400px;top:250px;transition:height left top transform; 
+        transition-duration: 2000ms;transition-timing-function: cubic-bezier(0, 0, 0.16, 0.6);}
+img.third:hover{height:200px;left:450px;top:150px;position:absolute; transition-duration: 2000ms;
+        transition-timing-function:cubic-bezier(0, 0, 0.16, 0.6);}
+
+/* For Forth image */
+img.forth{height:200px;position:absolute;left:580px;top:120px;transition:height left top transform; 
+    transition-duration: 2000ms;transition-timing-function: cubic-bezier(0, 0, 0.16, 0.6);}
+img.forth:hover{height:200px;left:600px;top:80px;position:absolute; transition-duration: 2000ms;
+    transition-timing-function:cubic-bezier(0, 0, 0.16, 0.6);}
+
+
+/* For Fifth image */
+img.fifth{height:200px;position:absolute;left:700px;top:40px;transition:height left top transform; 
+    transition-duration: 2000ms;transition-timing-function: cubic-bezier(0, 0, 0.16, 0.6);border-radius:50%;}
+img.fifth:hover{height:200px;left:740px;top:5px;position:absolute; transition-duration: 2000ms;
+    transition-timing-function:cubic-bezier(0, 0, 0.16, 0.6);border-radius:50%;}
+
+/* For poster */
+img.save{height:300px;position:absolute;right:25px;top:350px;}
+img.save:hover{transition-duration: 7000ms; transform: rotate(360deg);}
+img.girl{height:300px;position:absolute;right:280px;top:350px;}
+img.girl:hover{transition-duration: 7000ms; transform: rotate(360deg);}
+
+/* For credits */
+footer{text-align: right;position:absolute;right:20px;top:680px;}
