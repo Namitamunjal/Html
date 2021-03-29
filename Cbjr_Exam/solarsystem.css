@@ -1,0 +1,14 @@
+body{background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);}
+div{height: 600px;}
+img.sun{height:200px; margin-top:15%;margin-left: 0%;}
+img.mercury{ height: 100px;  margin-left:0.5%;transform: rotate(360deg); transition-duration:34s ; }
+img.venus{height: 120px; margin-left:0.5%;transform: rotate(360deg); transition-duration:39s ;}
+img.earth{height: 100px; margin-left:0.5%;transform: rotate(360deg); transition-duration:36s ;}
+img.mars{height: 100px; margin-left:0.5%;transform: rotate(360deg); transition-duration:36s ;}
+img.jupiter{height: 120px; margin-left:0.5%;transform: rotate(360deg); transition-duration:37s ;}
+img.saturn{height: 100px; margin-left:0.5%;transform: rotate(360deg); transition-duration:35s ;}
+img.uranus{height: 100px; margin-left:0.5%;transform: rotate(360deg); transition-duration:35s ;}
+img.neptune{height: 100px;margin-left:0.5%;transform: rotate(360deg); transition-duration:36s ;} 
+img.image{position:absolute;height:50px;}
+div.image{height:60px;margin-left: 93%;}
+a{color:cornsilk}
